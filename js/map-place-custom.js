@@ -4,7 +4,7 @@
         var i = [{
             lat: 40.665472,
             lon: -73.927885,
-            title: "NEW YORK",
+            title: "GUNTUR",
             html:
                 [   "<h3>Consulting Inc</h3>", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arc</p>",
                     "<ul>" +
@@ -15,39 +15,10 @@
             icon: "images/icons/ic-location.png",
             animation: google.maps.Animation.DROP,
             zoom: 10
-        }, {
-            lat: 37.749119,
-            lon: -122.435437,
-            title: "SAN FRANCISCO",
-            html:
-                [   "<h3>Consulting Inc</h3>", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arc</p>",
-                    "<ul>" +
-                    "<li><i class='fa fa-home'></i> 500-528 Burnett Ave San Francisco, CA 94131</li>" +
-                    "<li><i class='fa fa-phone'></i>  (+1) 96 716 6879</li>" +
-                    "<li><i class='fa fa-fax'></i>  (+1) 96 716 6879</li>" +
-                    "</ul>"].join(""),
-            icon: "images/icons/ic-location.png",
-            show_infowindow: !0,
-            animation: google.maps.Animation.DROP,
-            zoom: 10
-        }, {
-            lat: 51.509827,
-            lon: -0.132490,
-            title: "LONDON",
-            html:
-                [   "<h3>Consulting Inc</h3>", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arc</p>",
-                    "<ul>" +
-                    "<li><i class='fa fa-home'></i>  Privy Council Waterloo Rd, Waterloo, London</li>" +
-                    "<li><i class='fa fa-phone'></i>  (+1) 96 716 6879</li>" +
-                    "<li><i class='fa fa-fax'></i>  (+1) 96 716 6879</li>" +
-                    "</ul>"].join(""),
-            icon: "images/icons/ic-location.png",
-            animation: google.maps.Animation.DROP,
-            zoom: 10
-        }, {
+        },   {
             lat: 48.857661,
             lon:  2.353287,
-            title: "PARIS",
+            title: "HYDERABAD",
             html:
                 [   "<h3>Consulting Inc</h3>", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arc</p>",
                     "<ul>" +
