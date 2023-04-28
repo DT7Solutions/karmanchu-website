@@ -44,6 +44,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
     <script src="js/modernizr-custom.js"></script>
     <script src="./js/code.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
 </head>
 
 <body>
@@ -622,7 +624,7 @@
                     <div class="help-block with-errors"></div>
                     <textarea class="au-textarea" placeholder="Your Messages" style="height: 170px;" id="msg" name="msg" required data-error="Please, leave us a message."></textarea>
                 </div>
-                <input class="au-btn au-btn-primary" type="submit" id="contactBtn" value="Submit">
+                <input class="au-btn au-btn-primary" type="submit" id="contactBtn" value="Submit"onclick="sending()">
             </form>
         </div>
     </section>
@@ -798,9 +800,37 @@
             </div>
             <div class="bot-footer">
                 <div class="container">
-                    <div class="block-inner p-t-35 p-b-60">
+                    <div class="block-inner p-t-35 p-b-60 ">
                         <div class="block-left">
                             <span> Copyrights © 2023 Desgined by <a href="https://dt7solutions.com/"target="_blank">&nbsp;Dt7 Solutions</a></span>
+                        </div>
+                        <div class="block-right">
+                            <div class="quick-link">
+                                
+                                <ul class="horizontal-list">
+                                    
+                                   <li class="m-t-5"style="font-size:16px;">
+                                        <a>Follow us</a>
+                                    </li>
+                                   
+                                    <li class="social-item-2 social-item-1">
+                                        <a class="fa fa-facebook"></a>
+                                    </li>
+                                    <li class="social-item-2 social-item-1">
+                                        <a class="fa fa-twitter"></a>
+                                    </li>
+                                    <li class="social-item-2 social-item-1">
+                                        <a class="fa fa-google-plus"></a>
+                                    </li>
+                                    <li class="social-item-2 social-item-1">
+                                        <a class="fa fa-linkedin"></a>
+                                    </li>
+                                    <li class="social-item-2 social-item-1">
+                                        <a class="fa fa-instagram"></a>
+                                    </li>
+                                </ul>
+                           
+                            </div>
                         </div>
                         <!-- <div class="block-right">
                             <div class="quick-link">

@@ -25,10 +25,25 @@
 
 // })
 function sending(){
-    let name=document.contact
-
-
-
+    debugger
+    let Name=document.contact.name.value;
+    let Email=document.contact.email.value;
+    let Phone=document.contact.phone.value;
+    let Msg=document.contact.msg.value;
+   
+    console.log("Name:"+ Name +"<br/> For email:" + Email +"<br/> phone" + Phone + "<br/> Message"+Msg)
+    //       
+    // Email.send({
+    //     Host : "smtp.elasticemail.com",
+    //     Username : "username",
+    //     Password : "password",
+    //     To : 'them@website.com',
+    //     From : "you@isp.com",
+    //     Subject : "This is the subject",
+    //     Body : "And this is the body"
+    // }).then(
+    //   message => alert(message)
+    // );
 
 
 
