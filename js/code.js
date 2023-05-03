@@ -26,25 +26,41 @@
 // })
 function sending(){
     debugger
-    let Name=document.contact.name.value;
-    let Email=document.contact.email.value;
-    let Phone=document.contact.phone.value;
-    let Msg=document.contact.msg.value;
+    // let name = document.contact-form.name.value;
+    // let x = document.contact-form.email.value;
+    // let phone = document.contact-form.phone.value;
+    
+    // let subg = document.contact-form.subj.value;
+    // let msg = document.contact-form.msg.value;
+    // alert("hello");
+    
+//  console.log("Name:"+  Name +"<br/> For email:" +  Email +"<br/> phone:" + Phone +"<br/> Message:" + Message);
+
    
-    console.log("Name:"+ Name +"<br/> For email:" + Email +"<br/> phone" + Phone + "<br/> Message"+Msg)
-    //       
-    // Email.send({
-    //     Host : "smtp.elasticemail.com",
-    //     Username : "username",
-    //     Password : "password",
-    //     To : 'them@website.com',
-    //     From : "you@isp.com",
-    //     Subject : "This is the subject",
-    //     Body : "And this is the body"
-    // }).then(
-    //   message => alert(message)
-    // );
+    Email.send({
+     Host : "smtp.elasticemail.com",
+      Username : "karumanchiassociatesloans@gmail.com",
+    Password : "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
+    To : 'honeypriya6741@gmail.com',
+     From : "karumanchiassociatesloans@gmail.com",
+     Subject : subg,
+     Body : "name" + sai
+ }).then(
+   alert("sending successfull")
+);
+
+}
+
+// Body :"Name:"+  name +"<br/> For email:" +  x +"<br/> phone:" + phone + "<br/> Subject:" +  Subject + "<br/> Message:" + msg
 
 
-
+function vallid(){
+    debugger
+    let fname = document.querySelector('#name').value;
+    
+    let Phone=document.contact.numb.value;
+   if ( fname ==""||fname ==null){
+    document.getElementById("demo").innerHTML="Please Fill Name field"
+   }
+   
 }

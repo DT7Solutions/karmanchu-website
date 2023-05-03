@@ -58,3 +58,31 @@
     });
 
 })(jQuery);
+
+
+
+function sending(){
+    debugger
+    let name = document.contact-form.name.value;
+    let user_email = document.contact-form.email.value;
+    let phone = document.contact-form.phone.value;
+    
+    let subg = document.contact-form.subj.value;
+    let msg = document.contact-form.msg.value;
+  
+    
+//  console.log("Name:"+  Name +"<br/> For email:" +  Email +"<br/> phone:" + Phone +"<br/> Message:" + Message);
+Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "karumanchiassociatesloans@gmail.com",
+    Password: "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
+    To: 'honeypriya6741@gmail.com',
+    From: "karumanchiassociatesloans@gmail.com",
+    Subject: "subg",
+    Body: "Name:"+  name +"<br/> For email:" +  user_email +"<br/> phone:" + phone +"<br/> Message:" + msg
+}).then(
+  alert("sending successfull")
+);
+ 
+
+}

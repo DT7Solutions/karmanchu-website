@@ -6712,4 +6712,18 @@ input:focus, select:focus, textarea:focus {
     box-shadow: -13px 20px 0 rgba(0, 82, 236, 0.2), 13px 20px 0 rgba(0, 82, 236, 0.2), 13px 46px 0 rgba(0, 82, 236, 0.2), -13px 46px 0 #0052ec;
   }
 }
+.content-justfy{
+  text-align: justify!important;
+}
+.icon-box-6{
+  min-height: 350px;
+}
+.icon-box-2{
+  max-height: 200px!important;
+}
+/* .icon-box-7{min-height:480px;} */
+/* .content{max-height:400px;} */
+/* .cont{
+  text-align:start;
 
+} */
