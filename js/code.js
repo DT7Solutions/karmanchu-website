@@ -24,9 +24,9 @@
    
 
 // })
-function sending(){
-    debugger
-    // let name = document.contact-form.name.value;
+// function sending(){
+//     debugger
+//     // let name = document.contact-form.name.value;
     // let x = document.contact-form.email.value;
     // let phone = document.contact-form.phone.value;
     
@@ -34,33 +34,33 @@ function sending(){
     // let msg = document.contact-form.msg.value;
     // alert("hello");
     
-//  console.log("Name:"+  Name +"<br/> For email:" +  Email +"<br/> phone:" + Phone +"<br/> Message:" + Message);
+//  console.log("Name:"+  Name +"<br/> For email:" +  Email +"<br/> phone:" + Phone +"<br/> Message:" + );
 
    
-    Email.send({
-     Host : "smtp.elasticemail.com",
-      Username : "karumanchiassociatesloans@gmail.com",
-    Password : "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
-    To : 'honeypriya6741@gmail.com',
-     From : "karumanchiassociatesloans@gmail.com",
-     Subject : subg,
-     Body : "name" + sai
- }).then(
-   alert("sending successfull")
-);
+//     Email.send({
+//      Host : "smtp.elasticemail.com",
+//       Username : "karumanchiassociatesloans@gmail.com",
+//     Password : "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
+//     To : 'honeypriya6741@gmail.com',
+//      From : "karumanchiassociatesloans@gmail.com",
+//      Subject : subg,
+//      Body : "name" + sai
+//  }).then(
+//    alert("sending successfull")
+// );
 
-}
+// }
 
 // Body :"Name:"+  name +"<br/> For email:" +  x +"<br/> phone:" + phone + "<br/> Subject:" +  Subject + "<br/> Message:" + msg
 
 
-function vallid(){
-    debugger
-    let fname = document.querySelector('#name').value;
+// function vallid(){
+//     debugger
+//     let fname = document.querySelector('#name').value;
     
-    let Phone=document.contact.numb.value;
-   if ( fname ==""||fname ==null){
-    document.getElementById("demo").innerHTML="Please Fill Name field"
-   }
+//     let Phone=document.contact.numb.value;
+//    if ( fname ==""||fname ==null){
+//     document.getElementById("demo").innerHTML="Please Fill Name field"
+//    }
    
-}
+// }

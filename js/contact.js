@@ -63,13 +63,13 @@
 
 function sending(){
     debugger
-    let name = document.contact-form.name.value;
-    let user_email = document.contact-form.email.value;
-    let phone = document.contact-form.phone.value;
+    let name = document.myform.name.value;
+    let x = document.myform.email.value;
+    let phone = document.myform.phone.value;
     
-    let subg = document.contact-form.subj.value;
-    let msg = document.contact-form.msg.value;
-  
+    let subg = document.myform.subj.value;
+    let msg = document.myform.msg.value;
+ 
     
 //  console.log("Name:"+  Name +"<br/> For email:" +  Email +"<br/> phone:" + Phone +"<br/> Message:" + Message);
 Email.send({
@@ -79,10 +79,79 @@ Email.send({
     To: 'honeypriya6741@gmail.com',
     From: "karumanchiassociatesloans@gmail.com",
     Subject: "subg",
-    Body: "Name:"+  name +"<br/> For email:" +  user_email +"<br/> phone:" + phone +"<br/> Message:" + msg
+    Body: "Name:"+  name +"<br/> For email:" + x +"<br/> phone:" + phone+"<br/> Message:" + msg
 }).then(
   alert("sending successfull")
+     
 );
  
+
+}
+function sendi(){
+     debugger
+     var name = document.myform.name.value;
+   
+     var phone = document.myform.phone.value;
+    
+     var subg = document.myform.subj.value;
+     var option = document.myform.optio.value;
+//     alert("hello")
+ 
+    
+//  console.log("Name:"+  Name +"<br/> Phone:" +  phone);
+Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "karumanchiassociatesloans@gmail.com",
+    Password: "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
+    To: 'honeypriya6741@gmail.com',
+    From: "karumanchiassociatesloans@gmail.com",
+    Subject: "subg",
+    Body: "Name:"+  name +"<br/>how can we help:" + option + "<br/> phone:" + phone
+}).then(
+  alert("sending successfull")
+     
+);
+ 
+
+}
+// function formvalidation(){
+//     debugger
+
+//       var Name=document.myform.name.value;
+//       var Phone=document.myform.phone.value;
+//       var option=document.myform.selection.value;
+//       alert("hello");
+
+
+//     // if (Name==""||Name==null){
+//     //     document.getElementById("demo1").innerHTML="please fill the name filled";
+//     //     return false;
+//     // }
+// }
+function sended(){
+    debugger
+    var name = document.myform.name.value;
+  
+    var phone = document.myform.phone.value;
+   
+    // var subg = document.myform.subj.value;
+    // var option = document.myform.optio.value;
+    alert("hello")
+
+   
+// //  console.log("Name:"+  Name +"<br/> Phone:" +  phone);
+// Email.send({
+//    Host: "smtp.elasticemail.com",
+//    Username: "karumanchiassociatesloans@gmail.com",
+//    Password: "703C8A0AC36F17B02C2D1101AA20AEBD8DF8",
+//    To: 'honeypriya6741@gmail.com',
+//    From: "karumanchiassociatesloans@gmail.com",
+//    Subject: "subg",
+//    Body: "Name:"+  name +"<br/>how can we help:" + option + "<br/> phone:" + phone
+// }).then(
+//  alert("sending successfull")
+    
+// );
+
 
 }
