@@ -2,13 +2,13 @@
     "use strict";
     i(document).ready(function () {
         var i = [{
-            lat: 40.665472,
-            lon: -73.927885,
+            lat: 16.306652,
+            lon: 80.436539,
             title: "GUNTUR",
             html:
-                [   "<h3>Consulting Inc</h3>", "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus arc</p>",
+                [   
                     "<ul>" +
-                    "<li><i class='fa fa-home'></i>  8th floor, 379 Hudson St, New York, NY 10018</li>" +
+                    "<li><i class='fa fa-home'></i>  LIC Housing finance Buliding Ground Floor,Arundal Pet-9/2, Guntur ,Andhra pradesh</li>" +
                     "<li><i class='fa fa-phone'></i>  (+1) 96 716 6879</li>" +
                     "<li><i class='fa fa-fax'></i>  (+1) 96 716 6879</li>" +
                     "</ul>"].join(""),
