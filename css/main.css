@@ -6747,3 +6747,6 @@ input:focus, select:focus, textarea:focus {
   height: 120px;
 }
 } */
+img{
+  border-radius: 5px!important;
+}
