@@ -9,8 +9,8 @@
                 [   
                     "<ul>" +
                     "<li><i class='fa fa-home'></i>  LIC Housing finance Buliding Ground Floor,Arundal Pet-9/2, Guntur ,Andhra pradesh</li>" +
-                    "<li><i class='fa fa-phone'></i>  (+1) 96 716 6879</li>" +
-                    "<li><i class='fa fa-fax'></i>  (+1) 96 716 6879</li>" +
+                    "<li><i class='fa fa-phone'></i> (+91) 9951221717</li>" +
+                    "<li><i class='fa fa-fax'></i>  (+91)9493221717</li>" +
                     "</ul>"].join(""),
             icon: "images/icons/ic-location.png",
             animation: google.maps.Animation.DROP,
