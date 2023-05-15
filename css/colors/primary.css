@@ -163,7 +163,7 @@ input:focus, select:focus, textarea:focus, .au-input-2:focus {
 }
 
 .bg-overlay {
-  background: rgba(0, 86, 174, 0.8);
+  background: rgba(176,0,0, 0.7);
 }
 
 .au-select .chosen-container .chosen-results li.highlighted {
