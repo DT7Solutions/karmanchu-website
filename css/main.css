@@ -5936,7 +5936,7 @@ input:focus, select:focus, textarea:focus {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  padding: 25px 0;
+  padding: 10px 0;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -5969,7 +5969,7 @@ input:focus, select:focus, textarea:focus {
 }
 @media (max-width:1500px){
   .section-navbar-2 .logo img {
-    width: 80px;
+    width: 150px;
   }
 
 }
@@ -5979,7 +5979,7 @@ input:focus, select:focus, textarea:focus {
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 0;
+  padding: 10;
   -webkit-animation: none;
   -moz-animation: none;
   -o-animation: none;
@@ -5992,7 +5992,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .section-navbar-2.fixed .logo img {
-  width: 80px;
+  width: 130px;
 }
 
 .section-navbar-2.fixed .navbar-1 > ul > li > a {
@@ -6766,5 +6766,13 @@ img{
 .margin-small{
   overflow: hidden;
   min-height: 300px!important;
+
+}
+.whatsapp{
+  position: fixed;
+  
+  right: 28px;
+  bottom: 90px;
+  z-index: 99;
 
 }
