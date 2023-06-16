@@ -3,16 +3,16 @@
     "use strict";
 
     $(document).ready(function () {
-        /* initialize the slider based on the Slider's ID attribute from the wrapper above */
+       
         $('#js-slider').show().revolution({
-            /* options are 'auto', 'fullwidth' or 'fullscreen' */
+           
             responsiveLevels: [1200, 992, 768, 480],
             gridwidth:[1240, 1000, 800, 500],
             sliderLayout: 'auto',
             minHeight: 550,
             delay: 5000,
             spinner: 'spinner2',
-            /* basic navigation arrows and bullets */
+           
             navigation: {
                 onHoverStop: "off",
                 arrows: {
@@ -33,6 +33,13 @@
                 }
             }
         });
+        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        if (isMobile) {
+            // Make the slider full width on mobile
+            e("#js-slider").revredraw();
+        }
+   
+
 
         /* initialize the slider based on the Slider's ID attribute from the wrapper above */
         $('#js-slider-2').show().revolution({

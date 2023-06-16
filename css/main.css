@@ -6776,3 +6776,16 @@ img{
   z-index: 99;
 
 }
+@media (max-width: 576px) {
+  #js-slider {
+     
+      height:150px !important;
+      
+  }
+  .tp-revslider-mainul{
+    width:100vw!important;
+    object-fit: contain;
+   
+
+  }
+}
