@@ -1850,10 +1850,11 @@ input:focus, select:focus, textarea:focus {
 /*< 480*/
 @media (max-width: 479px) {
   .header-mobile-1 .top-header .logo {
-    margin-top: 20px;
+    /* margin-top: 0px; */
+    padding-left: 0px!important;
   }
   .header-mobile-1 .top-header .logo img {
-    width: 70px;
+    width: 140px;
   }
 }
 
@@ -6776,7 +6777,7 @@ img{
   z-index: 99;
 
 }
-@media (max-width: 576px) {
+@media (max-width: 662px) {
   #js-slider {
      
       height:150px !important;
